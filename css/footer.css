@@ -1,0 +1,44 @@
+.footer {
+    display: flex;
+    flex-direction: column;
+
+    background-color: var(--background-footer);
+
+    padding-top: 2.5rem;
+    padding-bottom: 2rem;
+}
+.footer__iconos {
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+}
+.footer__social {
+    display: flex;
+}
+
+.footer__midia {
+    display: block;
+
+    width: 42px;
+    height: 42px;
+
+    margin: 2rem 1rem;
+}
+
+.footer__navegacion {
+    color: var(--background-blanco);
+    font: var(--open-sans);
+    text-align: left;
+    padding-top: 2rem;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+
+    }
+
+
+.footer__enlace {
+    display: inline-block;
+
+    margin: 0 .5rem .7rem;
+}

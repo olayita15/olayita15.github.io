@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-windth initial-scale=1.0">
+        <title>Home | Apeperia</title>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&family=Open+Sans:wght@300;400;700&display=swap" rel="stylesheet">
+        <!-- Esto es para los enlaces -->
+        <link href="css/reset.css" rel="stylesheet">
+
+        <!-- Encabezado -->
+        <link href="css/head.css" rel="stylesheet">
+        
+        <!-- Estilo de texto del header -->
+        <link href="css/llamada.css" rel="stylesheet">
+        
+        <!-- Colores y estilos de fondo -->
+        <link href="css/bases.css" rel="stylesheet">
+        
+        <!-- Parte de destacados -->
+        <link href="css/destacados.css" rel="stylesheet">
+
+        <!-- Parte de tiempo y especialistas -->
+        <link href="css/diferenciales.css" rel="stylesheet">
+        
+        <!-- Pendiente -->
+        <link href="css/sobre-nosotros.css" rel="stylesheet">
+        
+        <!-- Cajas de la sub seccion planes -->
+        <link href="css/planes.css" rel="stylesheet">
+        
+        <!-- Seccion de contacto -->
+        <link href="css/contacto.css" rel="stylesheet">
+        
+        <!-- Video e informacion de la institucion -->
+        <link href="css/institucional.css" rel="stylesheet">
+
+        <!-- Fondo, redes sociales y enlaces del pie de pagina -->
+        <link href="css/footer.css" rel="stylesheet">
+    </head>
+    <body>
+        <!-- contenedor de la cabecera -->
+        <header class="head container">
+            
+            <!-- Imagen del logo en la cabecera -->
+            <img class="head__logo" src="img/logo.svg" alt="Logo">
+            <!-- Enlaces de la cabecera o menú de navegacion -->
+            <nav class="head__navegacion">
+                <ul>
+                    <li class="head__enlace"><a href="#">Sobre nosotros</a></li>
+                    <li class="head__enlace"><a href="#">Planes</a></li>
+                    <li class="head__enlace"><a href="#">Blog</a></li>
+                    <li class="head__enlace"><a href="#">Destacados</a></li>
+                    <li class="head__enlace"><a href="#">Institucional</a></li>
+                    <li class="head__enlace"><a href="#">Contacto</a></li>
+                </ul>
+            </nav>
+        </header>
+        <!-- Contenedor principal -->
+        <main>
+            <!-- Seccion llamada -->
+            <section class="llamada container">
+                <h1 class="llamada__titulo">Aplicaciones en la medida</h1>
+                <p class="llamada__texto"> Apeperia es una empresa emergente con una manera inovadora de comprar y crear aplicaciones móviles y web.</p>
+                <a class="llamada__boton boton" href="#">Conozca los planes</a>
+            </section>
+            
+            <!-- Seccion destacados, incluye imagenes y un boton-->
+            <section class="destacados container">
+                <!-- titulo destacados tipo h2 -->
+                <h2 class="destacados__titulo">Destacados</h2>
+                <a href="#">
+                    <figure class="destacados__panel">
+                        <img src="img/empezando-a-crear-logo.jpg" alt="Panel de la publicación sobre la creación del logotipo" class="destacados__panel-imagen">
+                        <figC class="destacados__panel-texto">Conozca las primeras etapas de la creación de un logotipo</figC>
+                    </figure>
+                </a>
+                <a href="#">
+                    <figure class="destacados__panel">
+                        <img src="img/sugestiones-fotografias.png" alt="Painel de la publicación sobre consejos de fotografía" class="destacados__panel-imagen">
+                        <figC class="destacados__panel-texto">¿Trabajas con fotografía? Conozca esos consejos</figC>
+                    </figure>
+                </a>
+                <a href="" class="destacados__boton boton">Recibir destacados por correo</a>
+            </section>
+
+            <!-- Secciones de tiempo y especialistas denominada diferenciales -->
+            <section class="diferenciales container">
+                <ul class="diferenciales__lista">
+                    <li class="diferenciales__item diferenciales__item-reloj">
+                        <h2 class="item__titulo">Tiempo</h2>
+                        <p class="item__texto">¡Tiempo es importante! <br> Trabajamos en ritmo acelerado, para atender los plazos rigurosamente.</br></p>
+                    </li>
+                    <li class="diferenciales__item diferenciales__item-dinero">
+                        <h2 class="item__titulo">Enfoque</h2>
+                        <p class="item__texto">Focamos en el pequeño y medio emprendedor, ofrecemos servicios de calidad con precios accesibles.</p>
+                    </li>
+                </ul>
+
+                <ul class="diferenciales__lista">
+                    <li class="diferenciales__item diferenciales__item-quimica">
+                        <h2 class="item__titulo">Especialistas</h2>
+                        <p class="item__texto">Equipo especializada, con experiencia de mercado. <br> Todos los productos antes del lanzamiento.</p>
+                    </li>
+                </ul>
+            </section>
+
+            <!-- Seccion sobre nosotros -->
+            <section class="sobre_nosotros container">
+
+                <div class="sobre_nosotros__contenido">
+                    <!-- Lista que contiene un item imagen y un item texto e iconos -->
+                    <ul class="sobre_nosotros__lista">
+                        <li>   
+                            <a href="#">
+                                <figure class="sobre_nosotros__panel">
+                                    <img src="img/sobre-apeperia.png" alt="Panel de la publicación sobre nosotros" class="sobre_nosotros__panel-imagen">
+                                    <!-- <figC class="destacados__panel-texto">Conozca las primeras etapas de la creación de un logotipo</figC> -->
+                                </figure>
+                            </a>
+                        </li>
+                        <li class="sobre_nosotros__item">
+                            <h2 class="sobre_nosotros__titulo">Sobre Nosotros</h2>
+                            <p class="sobre_nosotros__texto">¡Creamos aplicaciones personalizados para todas las personas!</p>
+                            <p class="sobre_nosotros__texto">La manutención de una aplicación no puede ser un custo extra para el cliente. En Apeperia firmas nuestro servicio la manutención ya se incluye en el servicio. De esa manera no te preocupes con la atualización, es por cuenta de nosotros.</p>
+                            <p class="sobre_nosotros__texto">¡Tenemos un equipo especializado y exclusivo para proyectos increíbles!</p>
+                            <!-- ICONOS -->
+                            <ul class="sobre_nosotros__iconos">
+                                <li>
+                                    <figure class="sobre_nosotros__panel">
+                                        <img src="img/android.png" alt="Icono Android" class="sobre_nosotros__panel-icono">                                    </figure>
+                                </li>
+                                <li>
+                                    <figure class="sobre_nosotros__panel">
+                                        <img src="img/blackberry.png" alt="Icono blackberry" class="sobre_nosotros__panel-icono">                                    </figure>
+
+                                </li>
+                                <li>
+                                    <figure class="sobre_nosotros__panel">
+                                        <img src="img/apple.png" alt="Icono Apple" class="sobre_nosotros__panel-icono">                                    </figure>
+                                </li>
+                                <li>
+                                    <figure class="sobre_nosotros__panel">
+                                        <img src="img/windowsphone.png" alt="Icono windowsphone" class="sobre_nosotros__panel-icono">                                    </figure>
+                                </li>
+                            </ul>
+                            <p class="sobre_nosotros__texto">Desarrollamos aplicaciones para todas plataformas</p>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+
+            <!-- Seccion planes -->
+            <section class="planes container">
+                <!-- Titulo -->
+                <h2 class="planes__titulo">Planes</h2>
+                <!-- Lista planes tarjetas -->
+                <ul class="planes__tarjetas">
+                    <!-- Notar que hay una clase llamada -->
+                    <!-- Tarjeta start -->
+                    <li class="tarjetas tarjetas--start">
+                        <!-- Titulo de la tarjeta -->
+                        <h3 class="tarjetas__titulo">Start</h3>
+                        <!-- Contenido de la tarjeta  -->
+                        <articule class="tarjetas__contenido">
+                            <p class="tarjetas__precio"><em>$ 500</em></p>
+                            <p class="tarjetas__texto">5 manutenciones mensuales</p>
+                            <p class="tarjetas__texto">App SEO</p>
+                            <p class="tarjetas__texto">1 sistema operacional</p>
+                            <a href="#" class="tarjetas__boton tarjetas__boton--start boton">Asignar plan</a>
+                        </articule>
+                    </li>
+                    <!-- Tarjeta ultra -->
+                    <li class="tarjetas tarjetas--ultra">
+                        <h3 class="tarjetas__titulo">Ultra</h3>
+                        <articule class="tarjetas__contenido">
+                            <p class="tarjetas__precio"><em>$ 1500</em></p>
+                            <p class="tarjetas__texto">20 manutenciones mensuales</p>
+                            <p class="tarjetas__texto">App SEO</p>
+                            <p class="tarjetas__texto">4 sistemas operacionales</p>
+                            <p class="tarjetas__texto">24h de atendimentos</p>
+                            <a href="#" class="tarjetas__boton tarjetas__boton--ultra boton">Asignar plan</a>
+                        </articule>
+                    </li>
+                    <!-- Tarjeta mega -->
+                    <li class="tarjetas tarjetas--mega">
+                        <h3 class="tarjetas__titulo">Mega</h3>
+                        <articule class="tarjetas__contenido">
+                            <p class="tarjetas__precio"><em>$ 1000</em></p>
+                            <p class="tarjetas__texto">10 manutenciones mensuales</p>
+                            <p class="tarjetas__texto">App SEO</p>
+                            <p class="tarjetas__texto">2 sistemas operacionales</p>
+                            <a href="#" class="tarjetas__boton tarjetas__boton--mega boton">Asignar plan</a>
+                        </articule>
+                    </li>
+                </ul>
+            </section>
+
+            <!-- Seccion contacto -->
+            <section class="contacto container">
+                <h2 class="contacto__titulo">Contacto</h2>
+                <p class="contacto__texto">Entre en contacto con nosotros</p>
+                <a href="#" class="contacto__boton boton">Entre en contacto</a>
+            </section>
+
+            <!-- Seccion institucional -->
+            <section class="institucional container">
+                <h2 class="institucional__titulo">Institucional</h2>
+
+                
+                <div class="institucional__caja">
+                    <address class="institucional__direccion">
+                        <p class="institucional__descripcion">Un poco más sobre Ontech</p>
+                        Calle 127 21-43</br>
+                        Bogotá-Colombia
+                        <article class="institucional__contacto">
+                            <p>
+                                <a href="tel:+551155712751" class="institucional__contacto-telefono">+55 11 55712751</a> o
+                                <a href="mailto:contato@apeperia.com" class="institucional__contacto-email">contato@apeperia.com</a>
+                            </p>
+                        </article>
+                    </address>
+                    <video src="img/formacion-java.mp4" class="institucional__video" controls></video>            
+                </div>
+            </section>
+
+            <!-- Pie de pagina -->
+            <footer class="footer container">
+                <div class="footer__iconos">
+                    <!-- Logo del pie de pagina -->
+                    <img src="img/logo.svg" alt="" class="footer__logo">
+                    <!-- Logos de las redes sociales -->
+                    <ul class="footer__social">
+                        <li><a href="#" class="footer__midia"><img src="img/facebook.svg" alt="Ícono de Facebook"></a></li>
+                        <li><a href="#" class="footer__midia"><img src="img/twitter.svg" alt="Ícono de Twitter"></a></li>
+                        <li><a href="#" class="footer__midia"><img src="img/instagram.svg" alt="Ícono de Instagram"></a></li>
+                    </ul>
+                </div>
+                <nav>
+                    <ul class="footer__navegacion">
+                        <li class="footer__enlace"><a href="#">Sobre Nosotros</a></li>
+                        <li class="footer__enlace"><a href="#">Planes</a></li>
+                        <li class="footer__enlace"><a href="#">Blog</a></li>
+                        <li class="footer__enlace"><a href="#">Destacados</a></li>
+                        <li class="footer__enlace"><a href="#">Institucional</a></li>
+                        <li class="footer__enlace"><a href="#">Contacto</a></li>
+                    </ul>
+                </nav>
+            </footer>
+        </main>
+    </body>
+</html>
